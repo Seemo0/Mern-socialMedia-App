@@ -1,4 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/homePage/Home";
+import Login from "./pages/loginPage/Login";
+import Profile from "./pages/profilePage/Profile";
 
 
 function App() {
@@ -6,9 +9,9 @@ function App() {
     <div className="app">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<LoginPage />} />
-          <Route path="/home" element={<HomePage />} />
-          <Route path="/profile/:userId" element={<ProfilePage />} />
+          <Route path="/" element={<Login />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/profile/:userId" element={<Profile />} />
         </Routes>
       </BrowserRouter>
     </div>
