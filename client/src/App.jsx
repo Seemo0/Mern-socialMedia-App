@@ -18,7 +18,7 @@ function App() {
       <BrowserRouter>
         <ThemeProvider theme={theme}>
           <CssBaseline />
-          <Routes>
+          <Routes> 
             <Route path="/" element={<Login />} />
             <Route
               path="/home"
