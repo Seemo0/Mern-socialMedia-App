@@ -2,6 +2,7 @@ import { Box, useMediaQuery } from "@mui/material";
 import { useSelector } from "react-redux";
 import Navbar from "../navbar/Navbar.jsx";
 import AdvertWidget from "../widgets/AdvertWidget.jsx";
+import FriendListWidget from "../widgets/FriendListWidget.jsx";
 import MyPostWidget from "../widgets/MyPostWidget.jsx";
 import PostsWidget from "../widgets/PostsWidget.jsx";
 import UserWidget from "../widgets/UserWidget.jsx";
@@ -34,6 +35,7 @@ const Home = () => {
           <Box flexBasis="26%">
             <AdvertWidget />
             <Box m="2rem 0" />
+            <FriendListWidget userId={_id} />
           </Box>
         )}
       </Box>
