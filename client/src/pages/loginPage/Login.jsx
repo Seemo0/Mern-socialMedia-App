@@ -14,7 +14,7 @@ const Login = () => {
         textAlign="center"
       >
         <Typography fontWeight="bold" fontSize="32px" color="primary">
-          Sociopedia
+          SociolClone
         </Typography>
       </Box>
       <Box
